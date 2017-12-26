@@ -36,3 +36,38 @@ header li{
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
+
+/*Main Section*/
+
+.Mission{
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url("./Images/img-mission-background.jpg");
+  margin: auto;
+  position: relative;
+  top:69px;
+  opacity: 0.7;
+}
+
+.Mission_statement{
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+  opacity: 0.9;
+  height: 125px;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+}
+
+.Mission_statement h2{
+  margin: auto;
+}
+
+.Mission_statement h4{
+  margin: auto;
+
+}
