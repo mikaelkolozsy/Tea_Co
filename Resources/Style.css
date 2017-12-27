@@ -30,7 +30,7 @@ header nav{
 
 header ul{
   display: inline-flex;
-  text-decoration: underline;
+  text-decoration: none;
   list-style-type: none;
 }
 
@@ -39,9 +39,22 @@ header li{
   margin-right: 0.5em;
 }
 
+a {
+  text-decoration: none;
+  color: seashell;
+}
+
+li :hover{
+  color: gray;
+}
+
+li :active{
+  color: #fcffbc;
+}
+
 /*Main Section*/
 
-.Mission{
+#Mission{
   display: flex;
   height: 700px;
   width: 1200px;
@@ -76,12 +89,13 @@ header li{
 
 /*Featured Tea*/
 
-.Featured_Tea{
+
+#Featured_Tea{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 1000px;
-  height: 600px;
+  height: 700px;
   position: relative;
   top: 69px;
   margin: auto;
@@ -135,19 +149,73 @@ header li{
 
 /*Locations*/
 
-.Locations{
+#Locations{
   display: flex;
-  height:500px;
+  height: 550px;
   width: 1200px;
-  background-image: url("./Images/img-locations-background.jpg");
   position: relative;
   top:69px;
   margin:auto;
+  background-image: url("./Images/img-locations-background.jpg");
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-.Downtown .East .Oakdale{
+#Locations h2{
+  display: flex;
+  margin-right: 500px;
+  margin-left: 500px;
+  opacity: 0.5;
+}
+
+.Downtown {
+  display: flex;
   height: 300px;
   width: 300px;
   background-color: black;
   opacity: 1;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.East {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Oakdale{
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*footer*/
+
+footer{
+  height: 300px;
+  display: flex;
+  position: relative;
+  top:69px;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.4;
+}
+
+footer p{
+  margin-right: auto;
 }
