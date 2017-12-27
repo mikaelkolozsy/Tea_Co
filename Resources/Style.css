@@ -13,6 +13,8 @@ header{
   border-bottom: 1px seashell solid;
   position: fixed;
   z-index: 1;
+  background-color: black;
+  opacity: 0.8;
 }
 
 header .Logo{
@@ -70,4 +72,82 @@ header li{
 .Mission_statement h4{
   margin: auto;
 
+}
+
+/*Featured Tea*/
+
+.Featured_Tea{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1000px;
+  height: 600px;
+  position: relative;
+  top: 69px;
+  margin: auto;
+  align-content: center;
+}
+
+.Berry_Blitz .Spiced_Rum .Donuts .Myrtle .Bedford{
+  display:flex;
+  height: 200px;
+  width: 300px;
+}
+
+.Berry_Blitz img{
+  max-height: 200px;
+  max-width: 300px;
+}
+
+
+.Spiced_Rum img{
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.Donuts img{
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.Myrtle img{
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.Myrtle{
+  margin-left: 145px;
+}
+
+.Bedford img{
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.Bedford{
+  margin-right: 145px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+/*Locations*/
+
+.Locations{
+  display: flex;
+  height:500px;
+  width: 1200px;
+  background-image: url("./Images/img-locations-background.jpg");
+  position: relative;
+  top:69px;
+  margin:auto;
+}
+
+.Downtown .East .Oakdale{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
 }
